@@ -26,6 +26,7 @@ body {
 	// width: 50%;
 	&:first-of-type {
 		flex: 1;
+		overflow: auto;
 	}
 	&:last-of-type {
 		position: relative;
@@ -57,4 +58,11 @@ embed {
 
 .credits {
 	padding: 2em;
+}
+
+a {
+	color: black;
+	&:hover {
+		color: #606060;
+	}
 }
