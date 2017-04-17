@@ -31,6 +31,10 @@ body {
 	&:last-of-type {
 		position: relative;
 		width: auto;
+		@media only screen and (orientation: portrait) {
+			display: none;
+		}
+
 		img {
 			height: 100%;
 			width: auto;
@@ -64,5 +68,11 @@ a {
 	color: black;
 	&:hover {
 		color: #606060;
+	}
+}
+
+.portrait-info {
+	@media only screen and (orientation: landscape) {
+		display: none;
 	}
 }
