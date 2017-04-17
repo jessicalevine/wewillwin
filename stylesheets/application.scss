@@ -13,6 +13,7 @@ body {
   font-family: 'Special Elite', serif;
 	background-image: $bg-img;
 	background-size: 50%;
+	line-height: 1.2em;
 }
 
 .container {
@@ -48,7 +49,7 @@ header {
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 35%;
+	height: 30%;
 	margin-top: 1em;
 }
 
@@ -69,4 +70,8 @@ a {
 	&:hover {
 		color: #606060;
 	}
+}
+
+p {
+	margin-bottom: 1em;
 }
