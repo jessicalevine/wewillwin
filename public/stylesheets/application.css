@@ -119,9 +119,3 @@ a {
 a:hover {
   color: #606060;
 }
-
-@media only screen and (orientation: landscape) {
-  .portrait-info {
-    display: none;
-  }
-}
