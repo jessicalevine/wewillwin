@@ -3,15 +3,16 @@
 @import "compass/css3";
 
 $header-img: image-url('wewillwin_crest.png', false, false);
+$bg-img: image-url('textured_paper.png', false, false);
 
 html, body {
 	height: 100%;
 }
 
 body {
-  font: Arial, Helvetica, sans-serif;
-  background: #fff;
-  color: #0d0d0d;
+  font-family: 'Special Elite', serif;
+	background-image: $bg-img;
+	background-size: 50%;
 }
 
 .container {
@@ -42,7 +43,8 @@ header {
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 30%;
+	height: 35%;
+	margin-top: 1em;
 }
 
 embed {
