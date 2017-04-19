@@ -62,7 +62,7 @@ body {
   font-family: 'Special Elite', serif;
   background-image: url('/images/textured_paper.png');
   background-size: 50%;
-  line-height: 1.2em;
+  line-height: 1.3em;
 }
 
 .container {
@@ -122,5 +122,6 @@ a:hover {
 }
 
 p {
+  font-size: 105%;
   margin-bottom: 1em;
 }
